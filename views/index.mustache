@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hangman Game</title>
+  </head>
+  <body>
+    <h1>{{ chosenWord }}</h1>
+    <form class="" action="/index" method="post">
+      <input id="textBox" type="text" name="guess" value="">
+      <input type="submit" value="Guess">
+      <p>{{req.body.guessed}}</p>
+    </form>
+  </body>
+</html>
